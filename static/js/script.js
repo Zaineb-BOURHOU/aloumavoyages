@@ -25,8 +25,8 @@ function envoieEmail(event) {
     const email = document.getElementById("email").value;
     const location = document.getElementById("location").value;
     const activity = document.getElementById("activity").value;
-    const tour = document.getElementById("tour").value;
-    const date = document.getElementById("data").value;
+    const tour = document.getElementById("tours").value;
+    const date = document.getElementById("date").value;
 
     const subject = encodeURIComponent("Nouvelle demande de réservation");
     const body = encodeURIComponent(
