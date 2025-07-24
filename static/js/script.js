@@ -18,15 +18,22 @@ function sendEmail(event) {
     window.location.href = `mailto:Aloumavoyages1@gmail.com?subject=${subject}&body=${body}`;
 }
 
-// booking
-function sendEmail(event) {
-    event.preventDefault();
+// envoie : booking
+function envoieEmail(event) {
+    event.preventDefault(); //empéche l'envoie normal
 
-    const name = document.getElementById("name").value;
-    const email = document.getElementById("email_address").value;
-    const message = document.getElementById("message").value;
-        
-    const subject = encodeURIComponent("Contact form : " + name);
-    const body = encodeURIComponent("Name : " + name + "\nEmail : " + email + "\n\nMessage :\n" + message);
-    window.location.href = `mailto:Aloumavoyages1@gmail.com?subject=${subject}&body=${body}`;
-};
+    const email = document.getElementById("email").value;
+    const location = document.getElementById("location").value;
+    const activity = document.getElementById("activity").value;
+    const tour = document.getElementById("tour").value;
+    const date = document.getElementById("data").value;
+
+    const subject = encodeURIComponent("Nouvelle demande de réservation");
+    const body = encodeURIComponent(
+        `Email : ${email}\nDestination : ${location}\nActivité : ${activity}\nTour : ${tour}\nDate : ${date}`
+    );
+
+    const to = "Aloumavoyages1@gmail.com";
+
+    window.location.href = `mailto:${to}?subject=${subject}&body=${body}`;
+}
