@@ -651,6 +651,13 @@ header {
     line-height: 1.5;
 }
 
+.journey_desc {
+    color: #FFF7F7;
+    padding-left: 30px;
+    font-size: 1.2rem;
+    line-height: 1.5;
+}
+
 .sec1 b {
     color: var(--white);
 }
@@ -1186,6 +1193,10 @@ footer {
 
 .footer-about {
     font-size: 19px;
+}
+
+.footer-contact p {
+    color: rgba(255, 255, 255, 0.804);
 }
 
 .footer-contact svg {
