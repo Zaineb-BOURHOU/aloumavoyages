@@ -560,6 +560,7 @@ header {
 
 .spiritual-desc p strong {
     background-color: rgb(218, 215, 220);
+    text-align: center;
     color: #000;
     border-radius: 8px;
     padding: 5px 9px;
@@ -570,14 +571,6 @@ header {
 .hajj_omra-info p {
     color: rgb(0, 0, 0);
     text-align: justify;
-}
-
-.glass {
-    background: rgba(255, 255, 255, .4);
-    border-radius: 16px;
-    backdrop-filter: blur(12px);
-    -webkit-backdrop-filter: blur(12px);
-    border: 1px solid rgba(255, 255, 255, .3);
 }
 
 .hajj_omra-info button {
@@ -606,6 +599,34 @@ header {
     background-color: #545454;
     color: white;
     transition: all .5s ease-in;
+}
+
+@media (max-width : 1000px) {
+    .spiritual-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .hajj_omra-card {
+        flex-direction: column !important;
+        align-items: center;
+        text-align: center;
+    }
+
+
+    .spiritual-img img {
+        width: 100%;
+        max-width: 500px;
+    }
+
+    .img_title img {
+        width: 60px;
+        height: 60px;
+    }
+
+    .titles h3, .titles em, .spiritual-desc p, .hajj_omra-info p {
+        text-align: center;
+    }
 }
 
 /* Journey Section */
