@@ -28,5 +28,5 @@ Ce projet a été réalisé dans le cadre de mon stage afin de répondre aux bes
 
 ---
 
-> Réalisé par **Zaineb Brh** | Étudiante en 1ère année à l’ESTO  
-> 💻 Portfolio : [Lien vers ton portfolio si tu en as un]
+> Réalisé par **Zaineb Bourhou** | Étudiante en 2ère année à l’ESTO  
+> 💻 Portfolio : [(https://zaineb-bourhou.github.io/)]
