@@ -154,22 +154,22 @@ header {
     margin-right: 1rem;
     margin-top: 1rem;
     position: absolute;
-    right: 0;
-    top: 50%;
-    transform: translateY(-50%);
+    right: 5px;
+    top: 50px;
 }
 
 .book-form {
     padding: 15px;
     margin-top: 2rem;
     margin-left: 3rem;
-    background: var(--white);
+    background-color: var(--white);
     width: 850px;
-    border-radius: 200px;
+    justify-content: space-around;
+    border-radius: 100px;
     border: 10px solid #86b4c241;
     font-family: var(--formulaire);
-    display: inline-flex;
-    flex-direction: wrap;
+    display: flex;
+    flex-wrap: nowrap;
     align-items: center;
 }
 
@@ -227,10 +227,42 @@ header {
     background-color: #86B4C2;
 }
 
-@media (max-width < 600px) {
+@media (max-width: 1250px) {
+    .man_landing {
+        width: 300px;
+        top: 100px;
+    }
+}
+@media (max-width: 1050px) {
+    .man_landing {
+        width: 0;
+        transition: width .7s ease;
+    }
+    
+}
+
+@media (max-width < 900px) {
     .book-form {
-        flex-direction: column;
-        align-items: stretch;
+        display: flex;
+        flex-wrap: wrap;
+        margin: 2rem auto;
+        border-radius: 20px;
+        justify-content: center;
+        gap: 1rem;
+    }
+    .form_column {
+        width: 95%;
+        margin-bottom: 1rem;
+    }
+    .form_column input {
+        width: 100%;
+        font-size: 16px;
+    }
+    .book-btn {
+        width: 100%;
+        font-size: 18px;
+        padding: 14px;
+        margin-left: 0;
     }
 }
 
@@ -470,6 +502,12 @@ header {
     transform: scale(1.08);
     transition: all 0.3s ease-in-out;
     box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
+}
+
+@media (max-width : 1000px) {
+    .tour_container {
+        flex-wrap: wrap;
+    }
 }
 
 /* Hajj Omra Section */
