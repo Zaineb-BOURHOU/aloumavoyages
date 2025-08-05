@@ -1,32 +1,77 @@
-# 🌍 Al Ouma Voyages
+# ✈️ Al Ouma Voyages – Site Web d’Agence de Voyage
 
-**Al Ouma Voyages** est un site web développé dans le cadre d’un stage d'initiation de première année à l’École Supérieure de Technologie d'Oujda. Ce projet a pour objectif de promouvoir les services d’une agence de voyage en ligne, en offrant aux utilisateurs une expérience fluide, interactive et responsive.
+**Al Ouma Voyages** est un site web responsive et moderne développé dans le cadre d’un stage de première année à l’École Supérieure de Technologie. Il vise à digitaliser les services d’une agence de voyage et à faciliter la découverte, la réservation et la communication avec les clients.
 
-## 🚀 Fonctionnalités
+## 🧭 Objectifs du projet
 
-- 🔍 Recherche et découverte de destinations touristiques
-- 📅 Formulaire de réservation en ligne (envoi par email)
-- 🖼️ Galerie d’images attrayante mettant en valeur les paysages proposés
-- 📱 Design 100% responsive (ordinateur, tablette, mobile)
-- 📨 Formulaire de contact
-- 🌐 Intégration des réseaux sociaux
-
-## 🛠️ Technologies utilisées
-
-- `HTML5`
-- `CSS3`
-- `JavaScript`
-- `GitHub Pages` (pour le déploiement)
-
-## 📌 Objectif du projet
-
-Ce projet a été réalisé dans le cadre de mon stage afin de répondre aux besoins de communication digitale de l’agence. Il m’a permis d’appliquer mes compétences en développement web et de mieux comprendre la réalisation d’un site professionnel de A à Z.
-
-## 🔗 Démo en ligne
-
-👉 [Voir le site en ligne](https://zaineb-bourhou.github.io/aloumavoyages/)
+- Développer une plateforme web intuitive pour la promotion des offres touristiques.
+- Permettre aux utilisateurs de naviguer facilement parmi différentes destinations.
+- Offrir un formulaire de réservation simple et fonctionnel.
+- Valoriser l’image de marque de l’agence via un design professionnel.
 
 ---
 
-> Réalisé par **Zaineb Bourhou** | Étudiante en 2ère année à l’ESTO  
-> [💻 Portfolio ](https://zaineb-bourhou.github.io/)
+## 🌐 Aperçu du site
+
+> 🎯 Interface fluide, moderne, avec navigation simple et design responsive.  
+> 💻 Compatible avec tous les appareils : ordinateur, tablette, smartphone.
+
+![Aperçu](images/screenshot-homepage.png)
+
+---
+
+## 🛠️ Technologies utilisées
+
+| Technologie | Description |
+|-------------|-------------|
+| `HTML5`     | Structure du contenu |
+| `CSS3`      | Mise en page et design responsive |
+| `JavaScript`| Interactivité (formulaires, navigation) |
+| `GitHub Pages` | Hébergement du site en ligne |
+
+---
+
+## 🚀 Fonctionnalités principales
+
+- 📍 **Accueil** avec une présentation claire de l’agence
+- 🌍 **Destinations** populaires avec visuels et descriptions
+- 📸 **Galerie photo** immersive
+- 📅 **Formulaire de réservation** fonctionnel (envoi d’email)
+- 📞 **Section contact** avec liens vers les réseaux sociaux
+- 🔄 **Design responsive** sur tous les supports
+
+---
+
+## 📁 Arborescence du projet
+📦 AlOumaVoyages/
+├── index.html
+├── style.css
+├── script.js
+├── /images/
+│ └── (logos, photos, favicons)
+├── README.md
+
+
+---
+
+## 📌 Déploiement
+
+Le site est hébergé via **GitHub Pages**.  
+🔗 [Voir le site en ligne](https://ton-nom-utilisateur.github.io/AlOumaVoyages)
+
+---
+
+## 👩‍💻 Auteur
+
+**Zaineb Brh**  
+Étudiante en 1ère année à l’EST Oujda  
+Stage au sein d’une agence de voyage | 2025  
+📫 Contact : [ton email professionnel ou lien LinkedIn]
+
+---
+
+## 📜 Licence
+
+Ce projet est développé à des fins pédagogiques.  
+© 2025 - Tous droits réservés.
+
