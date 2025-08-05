@@ -1162,7 +1162,7 @@ header {
 
 .form-control:focus {
     outline: none;
-    border-color: #070e10;
+    border-color: #e29b7d;
     box-shadow: 0 0 0 1.5px rgba(195, 201, 230, 0.463);
 }
 
