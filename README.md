@@ -29,4 +29,4 @@ Ce projet a été réalisé dans le cadre de mon stage afin de répondre aux bes
 ---
 
 > Réalisé par **Zaineb Bourhou** | Étudiante en 2ère année à l’ESTO  
-> 💻 Portfolio : [(https://zaineb-bourhou.github.io/)]
+> 💻 Portfolio : [https://zaineb-bourhou.github.io/]
