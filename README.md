@@ -1,6 +1,6 @@
-# 🌍 AlOuma Voyages
+# 🌍 Al Ouma Voyages
 
-**AlOuma Voyages** est un site web développé dans le cadre d’un stage de première année à l’École Supérieure de Technologie. Ce projet a pour objectif de promouvoir les services d’une agence de voyage en ligne, en offrant aux utilisateurs une expérience fluide, interactive et responsive.
+**Al Ouma Voyages** est un site web développé dans le cadre d’un stage d'initiation de première année à l’École Supérieure de Technologie d'Oujda. Ce projet a pour objectif de promouvoir les services d’une agence de voyage en ligne, en offrant aux utilisateurs une expérience fluide, interactive et responsive.
 
 ## 🚀 Fonctionnalités
 
