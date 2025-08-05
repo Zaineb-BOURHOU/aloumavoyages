@@ -43,35 +43,37 @@
 ---
 
 ## 📁 Arborescence du projet
-📦 AlOumaVoyages/
-├── index.html
-├── style.css
-├── script.js
-├── /images/
-│ └── (logos, photos, favicons)
-├── README.md
 
+AGENCE/
+├── index.html                 # Page d'accueil principale
+├── README.md                  # Description du projet (GitHub)
+├── templates/
+│   └── contact.html               # Page de contact
+│   └── journey.html               # Page de journey
+│   └── omra-hajj.html             # Page de oumra et hajj
+│   └── team.html                  # Page de team
+├── static/
+│   └── css/
+│     └── style.css              # Feuille de style principale
+│   └── js/
+│     └── script.js              # Script JavaScript pour l’interactivité
+│   └── images/                    # Photos touristiques / Logo de l'agence / Icône du site
+├── README.md                  # Description du projet (GitHub)
 
 ---
 
 ## 📌 Déploiement
 
 Le site est hébergé via **GitHub Pages**.  
-🔗 [Voir le site en ligne](https://ton-nom-utilisateur.github.io/AlOumaVoyages)
+🔗 [Voir le site en ligne](https://zaineb-bourhou.github.io/aloumavoyages/)
 
 ---
 
 ## 👩‍💻 Auteur
 
-**Zaineb Brh**  
-Étudiante en 1ère année à l’EST Oujda  
+**Zaineb Bourhou**  
+Étudiante en 2ère année à l’EST Oujda  
 Stage au sein d’une agence de voyage | 2025  
-📫 Contact : [ton email professionnel ou lien LinkedIn]
+📫 Contact : [zaineb.bourhou@gmail.com]
 
 ---
-
-## 📜 Licence
-
-Ce projet est développé à des fins pédagogiques.  
-© 2025 - Tous droits réservés.
-
