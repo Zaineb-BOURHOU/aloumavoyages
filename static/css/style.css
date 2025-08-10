@@ -459,7 +459,7 @@ header {
 .tour_container {
     margin-top: 3rem;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     flex-wrap: nowrap;
     align-items: center;
     padding: 10px;
