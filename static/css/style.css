@@ -892,10 +892,15 @@ header {
 }
 
 .team_container {
+    margin-top: 2rem;
     display: flex;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+    align-items: center;
+    padding: 10px;
     gap: 20px;
-    padding: 20px;
-}
+    width: 100%;
+    }
 
 .member {
     background: #fff;
