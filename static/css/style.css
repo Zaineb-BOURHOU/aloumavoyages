@@ -960,7 +960,7 @@ header {
     transition: all .4s ease-in-out;
 }
 
-@media (max-width : 1000px) {
+@media (max-width : 1100px) {
     .team_container {
         flex-wrap: wrap;
     }
