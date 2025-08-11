@@ -875,6 +875,7 @@ header {
 
 .intro {
     max-width: 600px;
+    padding: 20px;
     margin: 0 auto 40px;
     font-size: 1.3em;
     color: #555;
@@ -895,7 +896,7 @@ header {
     margin-top: 2rem;
     display: flex;
     justify-content: space-around;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     align-items: center;
     padding: 10px;
     gap: 20px;
@@ -906,7 +907,6 @@ header {
     background: #fff;
     border-radius: 10px;
     box-shadow: 0 6px 12px rgba(0,0,0,0.1);
-    width: 260px;
     padding: 20px;
     text-align: center;
     transition: transform 0.3s ease;
@@ -948,6 +948,10 @@ header {
     text-align: justify;
 }
 
+.social-links {
+    justify-content: center;
+}
+
 .social {
     justify-content: center;
 }
@@ -956,7 +960,7 @@ header {
     color: #000;
     font-weight: bold;
     padding-left: 15px;
-    margin-left: 25%;
+    margin-left: 35%;
 }
 
 .social button:hover {
@@ -966,11 +970,29 @@ header {
     transition: all .4s ease-in-out;
 }
 
+@media (max-width: 1024px) {
+    .team_container{
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 15px;
+    }
+
+    .team-members {
+        flex-wrap: wrap;
+    }
+
+    .member {
+        width: 45%;
+        margin-bottom: 20px;
+    }
+}
+
 /* Tablette : 2 colonnes */
 @media (max-width: 900px) {
     .member {
         flex: 1 1 calc(50% - 30px);
         max-width: calc(50% - 30px);
+        flex-wrap: wrap;
         }
     }
 
@@ -978,7 +1000,9 @@ header {
 @media (max-width: 600px) {
     .member {
         flex: 1 1 100%;
-        max-width: 100%;
+        max-width: 90%;
+        flex-wrap: wrap;
+        margin-bottom: 20px;
     }
 
     .member img {
