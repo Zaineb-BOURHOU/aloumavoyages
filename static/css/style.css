@@ -51,7 +51,7 @@ ul {
 /* Header */
 
 header {
-    height: 100lvh;
+    height: 100vh;
     background: url('../images/discount_new.png') center center no-repeat;
     background-size: cover;
 }
