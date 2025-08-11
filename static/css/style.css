@@ -112,6 +112,47 @@ header {
     fill: var(--white);
 }
 
+/* Icone hamburger cachee par defaut*/
+.menu_toggle {
+    display: none;
+    z-index: 1100; /*au dessus du menu*/
+    cursor: pointer;
+}
+
+/* Responsive with animation */
+@media (max-width: 780px) {
+    .nav_bar {
+        display: flex;
+        flex-direction: column;
+        background-color: white;
+        align-items: center;
+        justify-content: center;
+        gap: 2rem;
+        position: fixed;
+        top: 0;
+        right: -100%;
+        height: 100%;
+        left: auto;
+        width: 40%;
+        padding: 10px 0;
+        transition: right .4s ease-in-out;
+        box-shadow: -2px 0 10px rgba(0, 0, 0, .1);
+        z-index: 1000;
+    }
+
+    .nav_bar.show {
+        right: 0;
+    }
+
+    .menu_toggle {
+        display: block;
+    }
+
+    .talk_btn {
+        display: none;
+    }
+}
+
 .heading_titles {
     padding-top: 6rem;
     padding-left: 9rem;

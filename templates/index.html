@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Al Ouma Tours</title>
+    <script src="../static/js/script.js"></script>
     <link rel="stylesheet" href="../static/css/style.css">
     <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
     <link rel="icon" href="../static/images/img_icon_agence_1.png" type="image/png">
@@ -31,6 +32,13 @@
                     </svg>
                     Let's Talk
                 </a>
+            </div>
+            
+            <div class="menu_toggle" id="menu-toggle">
+                <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24">
+                    <rect width="24" height="24" fill="none" />
+                    <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-width="2" d="M19 7H7m12 10H7m12-5h-8" />
+                </svg>
             </div>
         </nav>
         <Section class="hero">
@@ -1208,6 +1216,22 @@
     </footer>
 
     <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+    
+    <script>
+        const menuToggle = document.getElementById("menu-toggle");
+        const navBar = document.getElementById("nav-bar");
+
+        menuToggle.addEventListener("click", () => {
+            navBar.classList.toggle("show");
+        });
+
+        document.querySelectorAll(".nav_bar a").forEach(link => {
+            link.addEventListener("click", () => {
+                navBar.classList.remove("show");
+            });
+        });
+    </script>
+
     <script>
         // animation sections
         AOS.init({
