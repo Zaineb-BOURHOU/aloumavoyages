@@ -115,12 +115,17 @@ header {
 /* Icone hamburger cachee par defaut*/
 .menu_toggle {
     display: none;
+    position: relative;
+    fill: #000;
     z-index: 1100; /*au dessus du menu*/
     cursor: pointer;
 }
 
 /* Responsive with animation */
 @media (max-width: 780px) {
+    .main_header {
+        justify-content: space-around;
+    }
     .nav_bar {
         display: flex;
         flex-direction: column;
