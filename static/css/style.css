@@ -290,6 +290,7 @@ header {
 @media (max-width < 900px) {
     .book-form {
         display: flex;
+        flex-direction: column;
         flex-wrap: wrap;
         margin: 2rem auto;
         border-radius: 20px;
