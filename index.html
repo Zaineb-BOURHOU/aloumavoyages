@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Al Ouma Tours</title>
-    <script src="static/js/script.js"></script>
     <link rel="stylesheet" href="static/css/style.css">
     <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
     <link rel="icon" href="static/images/img_icon_agence_1.png" type="image/png">
@@ -1213,66 +1212,8 @@
                 </p>
             </div>
         </div>
-    </footer>
-
+    </footer>    
     <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
-    
-    <script>
-        const menuToggle = document.getElementById("menu-toggle");
-        const navBar = document.getElementById("nav-bar");
-
-        menuToggle.addEventListener("click", () => {
-            navBar.classList.toggle("show");
-        });
-
-        document.querySelectorAll(".nav_bar a").forEach(link => {
-            link.addEventListener("click", () => {
-                navBar.classList.remove("show");
-            });
-        });
-    </script>
-
-    <script>
-        // animation sections
-        AOS.init({
-            duration: 1000, // durée de l’animation (en ms)
-            once: true      // anime une seule fois
-        });
-    </script>
     <script src="static/js/script.js"></script>
-
-    <script>
-        // envoie de message
-        function sendEmail(event) {
-            event.preventDefault();
-
-            const name = document.getElementById("name").value;
-            const email = document.getElementById("email_address").value;
-            const message = document.getElementById("message").value;            
-            const subject = encodeURIComponent("Contact form : " + name);
-            const body = encodeURIComponent("Name : " + name + "\nEmail : " + email + "\n\nMessage :\n" + message);
-            window.location.href = `mailto:Aloumavoyages1@gmail.com?subject=${subject}&body=${body}`;
-        }
-
-        // envoie : booking
-        function envoieEmail(event) {
-            event.preventDefault(); //empéche l'envoie normal
-
-            const email = document.getElementById("email").value;
-            const location = document.getElementById("location").value;
-            const activity = document.getElementById("activity").value;
-            const tour = document.getElementById("tours").value;
-            const date = document.getElementById("date").value;
-
-            const subject = encodeURIComponent("Nouvelle demande de réservation");
-            const body = encodeURIComponent(
-                `Email : ${email}\nDestination : ${location}\nActivité : ${activity}\nTour : ${tour}\nDate : ${date}`
-            );
-
-            const to = "Aloumavoyages1@gmail.com";
-
-            window.location.href = `mailto:${to}?subject=${subject}&body=${body}`;
-        }
-    </script>
 </body>
 </html>
