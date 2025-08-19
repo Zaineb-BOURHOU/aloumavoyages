@@ -1,3 +1,17 @@
+// menu toggle
+const menuToggle = document.getElementById("menu-toggle");
+const navBar = document.getElementById("nav-bar");
+
+menuToggle.addEventListener("click", () => {
+    navBar.classList.toggle("show");
+});
+
+document.querySelectorAll(".nav_bar a").forEach(link => {
+    link.addEventListener("click", () => {
+        navBar.classList.remove("show");
+    });
+});
+
 
 // animation sections
 AOS.init({
