@@ -8,7 +8,7 @@
     --btn-menu : 'Pacifico';
     --heading_1: 'Libre Caslon Text';
     --heading_2 : 'Italianno';
-    --desciption : 'Fenix';
+    --description : 'Fenix';
     --formulaire : 'Italiana';
     --border_one : #E7CDA4 ;
     --border_two : #86B4C2;
@@ -78,14 +78,13 @@ header {
     font-family: var(--menu);
     font-size: 20px;
     font-weight: 600;
-    transition: .3s ease-in-out;
+    transition: all .3s ease-in-out;
 }
 
 .nav_bar li:hover {
     color: #085d8a;
-    font-weight: bolder;
-    border-bottom: 2px solid #86B4C2, all ease-in;
-    transform: scaleX(120%) scaleY(120%);
+    font-weight: 700;
+    font-size: 25px;
     cursor: pointer;
     text-shadow: none;
 }
@@ -185,7 +184,7 @@ header {
 }
 
 .hero-description {
-    font-family: var(--desciption);
+    font-family: var(--description);
     color: black;
     font-size: 23px;
     font-weight: 800;
@@ -394,7 +393,7 @@ header {
 }
 
 .info_wrapper p {
-    font-family: var(--desciption);
+    font-family: var(--description);
     color: #333;
 }
 
@@ -538,7 +537,7 @@ header {
 }
 
 .tour_price span {
-    font-family: var(--desciption);
+    font-family: var(--description);
     color: #666;
     font-size: 1rem;
     display: block;
@@ -869,7 +868,7 @@ header {
 }
 
 .desc_city {
-    font-family: var(--desciption);
+    font-family: var(--description);
     font-size: 1.5rem;
     margin-bottom: 10px;
 }
