@@ -679,12 +679,14 @@ header {
 }
 
 .spiritual-desc {
+    display: flex;
+    text-align: center;
     justify-content: center;
     align-items: center;
-    margin: 20px;
 }
 
 .spiritual-desc p strong {
+    display: inline-block;
     background-color: rgb(218, 215, 220);
     text-align: center;
     color: #000;
