@@ -5,37 +5,37 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../static/css/style.css">
     <title>Contact Us</title>
+    <link rel="icon" href="../static/images/img_icon_agence_1.png" type="image/png">
 </head>
 <body>
     <nav class="main_header">
-        <div class="logo">
+        <div class="logo" data-aos="fade-right" data-aos-delay="200">
             <a href="#">
                 <img src="../static/images/logo_agence.png" alt="logo" style="width: 140px; height: 40px;">
             </a>
         </div>
-        <ul class="nav_bar">
-            <li><a href="../index.html">Home</a></li>
-            <li><a href="tour.html">Tours</a></li>
-            <li><a href="omra-hajj.html">Omrah - Hajj</a></li>
-            <li><a href="journey.html">Journey</a></li>
-            <li><a href="team.html">About Us</a></li>
+        <ul class="nav_bar" id="nav-bar">
+            <li data-aos="fade-down" data-aos-delay="100"><a href="#home">Home</a></li>
+            <li data-aos="fade-down" data-aos-delay="200"><a href="#tour">Tours</a></li>
+            <li data-aos="fade-down" data-aos-delay="300"><a href="#hajj_omrah">Omrah - Hajj</a></li>
+            <li data-aos="fade-down" data-aos-delay="400"><a href="#journey">Journey</a></li>
+            <li data-aos="fade-down" data-aos-delay="500"><a href="#team">About Us</a></li>
         </ul>
-        <div class="talk_btn">
+        <div class="talk_btn"  data-aos="zoom-in" data-aos-delay="600">
             <a href="#contact">
-                <span>
-                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
-	                    <path fill="#fff" d="M12 3c5.5 0 10 3.58 10 8s-4.5 8-10 8c-1.24 0-2.43-.18-3.53-.5C5.55 21 2 21 2 21c2.33-2.33 2.7-3.9 2.75-4.5C3.05 15.07 2 13.13 2 11c0-4.42 4.5-8 10-8" />
-                    </svg>
-                </span>
+                <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 48 48">
+                    <rect width="48" height="48" fill="none" />
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M40.5 9.3h-33a3 3 0 0 0-3 3v20a3 3 0 0 0 3 3h1.64v7.4l8.26-7.4h23.1a3 3 0 0 0 3-3v-20a3 3 0 0 0-3-3" stroke-width="3" />
+                </svg>
                 Let's Talk
             </a>
         </div>
         <div class="menu_toggle" id="menu-toggle">
-                <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24">
-                    <rect width="40" height="40" fill="none" />
-                    <path stroke="currentColor" stroke-linecap="round" stroke-width="2.3" d="M19 7H7m12 10H7m12-5h-8" />
-                </svg>
-            </div>
+            <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24">
+                <rect width="40" height="40" fill="none" />
+                <path stroke="currentColor" stroke-linecap="round" stroke-width="2.3" d="M19 7H7m12 10H7m12-5h-8" />
+            </svg>
+        </div>
     </nav>
 
     <main>
@@ -253,6 +253,7 @@
             </div>
         </div>
     </footer>
-
+    <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+    <script src="../static/js/script.js"></script>
 </body>
 </html>
