@@ -1395,6 +1395,12 @@ footer {
     font-size: 19px;
 }
 
+.footer-description {
+    margin-bottom: 20px;
+    color: rgba(255, 255, 255, 0.804);
+    line-height: 1.5;
+}
+
 .footer-contact p {
     color: rgba(255, 255, 255, 0.804);
 }
