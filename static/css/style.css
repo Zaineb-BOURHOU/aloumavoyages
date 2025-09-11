@@ -604,6 +604,8 @@ header {
     justify-content: center;
 }
 
+/* Second Info Section */
+
 .second_info {
     display: flex;
     margin: 4rem;
@@ -650,6 +652,77 @@ header {
     color: #FFF7F7;
     background-color: #86B4C2;
 }
+
+@media (max-width: 780px) {
+    .second_info {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .image_info {
+        width: 80%;
+        max-width: 300px;
+        margin: auto;
+    }
+
+    .info_wrapper h2, .info_wrapper h1, .info_wrapper p {
+        text-align: center;
+    }
+
+    .info_wrapper h2, .info_wrapper h1 {
+        font-size: 1.8rem;
+        line-height: 1.2;
+    }
+
+    .info_wrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+    }
+
+    .image_info {
+        width: 80%;
+        max-width: 350px;
+        margin: auto;
+    }
+
+    .info_wrapper h2, .info_wrapper h1, .info_wrapper p {
+        text-align: center;
+    }
+
+    .info_wrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .desc_info {
+        width: 90%;
+        max-width: 600px;
+        font-size: 2rem;
+        line-height: 1.5;
+        text-align: justify;
+        margin: 2rem;
+        padding: 20px;
+    }
+
+    .btn {
+        margin: auto;
+        width: 50%;
+        max-width: 300px;
+        padding: 12px 20px;
+        font-size: 16px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+    }
+
+}
+
+/* Tour Section */
 
 .tour {
     margin-top: 6rem;
