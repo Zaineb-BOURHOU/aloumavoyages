@@ -1140,6 +1140,100 @@ header {
     z-index: 2; /* Ensures the valise is above other elements */
 }
 
+@media (max-width: 780px) {
+    .journey {
+        margin-top: 3rem;
+        min-height: auto;
+        flex-direction: column;
+    }
+
+    .sec1 {
+        width: 100%;
+        padding: 2rem 1.5rem;
+        order: 2; /* Moves sec1 below sec2 */
+    }
+
+    .sec1 h3 {
+        padding-top: 0;
+        padding-left: 30px;
+        display: flex;
+        align-items: center;
+        gap: .5rem;
+        font-size: 2rem;
+    }
+
+    .sec1 h2 {
+        padding-left: 30px;
+        font-size: 2.1rem;
+        margin-bottom: 1rem;
+    }
+
+    .sec1 p {
+        color: #FFF7F7;
+        padding-left: 30px;
+        font-size: 1.2rem;
+        line-height: 1.5;
+    }
+
+    .journey_desc {
+        font-size: 1rem;
+        line-height: 1.5;
+        margin-bottom: 1.5rem;
+    }
+
+    .sec1 button {
+        padding: 12px 24px;        
+    }
+
+    .sec1 button:hover {
+        background-color: #023f02;
+        transition: all .3s ease;
+        border-radius: 18px;
+    }
+
+    .journey_icon_wrapper {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        margin-left: 0;
+        margin-top: 1.5rem;
+        gap: 1rem;
+    }
+
+    .journey_icon svg {
+        width: 50px;
+        height: 50px;
+        padding: 10px;
+        flex-shrink: 0;
+    }
+
+    .journey_icon {
+        gap: 15px;
+        }
+
+    .journey_icon svg {
+        width: 24px;
+        height: 24px;
+    }
+
+    .journey_icon p {
+        font-size: 1rem;
+        margin: 0;
+    }
+
+    .sec2 {
+        width: 100%;
+        height: 300px;
+        order: 1; /* Moves sec2 above sec1 */
+        background-image: url(../images/journey.jpeg);
+        background-size: cover;
+        background-position: center;
+    }
+
+    .valise_journey {
+        display: none; /* Hide the valise on smaller screens */
+    }
+}
 
 /* breathtaking cities section */
 .bt_cities {
